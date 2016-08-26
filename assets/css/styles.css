@@ -35,6 +35,10 @@ img {
 	width: auto;
 }
 
+.obs {
+	color: red;
+}
+
 .mark-down {
 	background: url('../images/mark-down.png') no-repeat left top;
 	display: inline-block;
@@ -487,6 +491,91 @@ span.red {
 	text-transform: uppercase;
 }
 
+span.ico-check {
+	background: url('../images/ico-check.png') no-repeat left center;
+	color: #ff7f65;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 24px;
+}
+
+.information-panel {
+	background-color: #ff7f65;
+	color: #ffffff;
+	margin-bottom: 82px;
+	padding: 40px 44px;
+}
+
+.icon-mamadeira {
+	background: url('../images/icon-mamadeira.jpg') no-repeat center top;
+}
+
+.icon-alimentacao-balance {
+	background: url('../images/icon-alimentacao-balance.png') no-repeat center top;
+}
+
+.icon-dieta {
+	background: url('../images/icon-nao-faca-dieta.png') no-repeat center top;
+}
+
+.icon-mamadeira,
+.icon-alimentacao-balance,
+.icon-dieta {
+	color: #7bc5d7;
+	display: block;
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 35px;
+	padding-top: 170px;
+	text-align: center;	
+}
+
+.information-panel span.icon-information {
+	background: url('../images/icon-information.png') no-repeat center;
+	display: block;
+	height:65px;
+	margin: 0 auto 23px;
+	width:65px;
+}
+
+.information-panel strong {
+	font-size: 20px;
+}
+
+.information-panel p {
+	color: #ffffff;	
+	margin-bottom: 0;
+}
+
+.lst-monitore li {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+.lst-monitore li span.num {
+	background-color: #ff7f65;
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-size: 98px;
+	font-weight: bolder;
+	height: 136px;
+	margin-right: 23px;
+	text-align: center;
+	width: 136px;
+}
+
+.lst-monitore li strong {
+	color: #ff7f65;
+	display: inline-block;
+	margin-top: 26px;
+}
+
+.lst-monitore li p {
+	margin-bottom: 0;
+}
+
 /* FOOTER */
 footer {
 	background-color: #ebedf1;
@@ -586,6 +675,10 @@ footer p {
 	.no-resp {
 		width: 100% !important;
 	}
+
+	.lst-monitore li span {
+		width: 100% !important;
+	}
 }
 
 @media (max-width : 480px) {
@@ -621,6 +714,10 @@ footer p {
 	}
 
 	.no-resp {
+		width: 100% !important;
+	}
+
+	.lst-monitore li span {
 		width: 100% !important;
 	}
 }
@@ -659,6 +756,10 @@ footer p {
 	}
 
 	.no-resp {
+		width: 100% !important;
+	}
+
+	.lst-monitore li span {
 		width: 100% !important;
 	}
 }
